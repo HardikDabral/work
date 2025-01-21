@@ -1,13 +1,13 @@
 import './App.css';
 // import Header from './GlobalComponents/Header/Header'
 import Footer from './GlobalComponents/Footer/Footer'
-// import Hero from './components/Hero'
+import Hero from './components/Hero'
 
 function App() {
   return (
     <div className="App">
       {/* <Header/> */}
-      {/* <Hero/> */}
+      <Hero/>
       <Footer/>
     </div>
   );

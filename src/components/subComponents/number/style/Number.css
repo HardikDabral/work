@@ -1,0 +1,93 @@
+.stats-section {
+  padding: 2rem 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.register-text {
+  color: #FFA229;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: -10px;
+  letter-spacing: 1px;
+}
+
+.stats-heading {
+  color: #2A2A2A;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-number {
+  display: flex;
+  align-items: baseline;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.gradient-number,
+.gradient-plus {
+  background: linear-gradient(100deg, #FFA229, #1C4670);
+  -webkit-background-clip: text;
+  font-weight:900;
+  font-size: 42px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.gradient-plus {
+  font-size: 2rem;
+  margin-left: 2px;
+}
+
+.stat-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .stats-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .stats-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+}

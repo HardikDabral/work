@@ -1,0 +1,105 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, #FFA229, #1C4670);
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .industry-text {
+    color: white;
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .title {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 800px;
+  }
+  
+  .email-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .input-group {
+    display: flex;
+  }
+  
+  .input-group input {
+    flex-grow: 1;
+    padding: 1rem;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .input-group input:focus {
+    outline: 2px solid #FFA229;
+    outline-offset: 2px;
+  }
+  
+  .input-group button {
+    background-color: #FFA229;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input-group button:hover {
+    background-color: #e88f1d;
+  }
+  
+  .features {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+  }
+  
+  .checkmark {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: currentColor;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .input-group {
+      flex-direction: column;
+    }
+  
+    .features {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
