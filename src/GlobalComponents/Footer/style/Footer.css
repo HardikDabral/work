@@ -1,0 +1,250 @@
+/* Footer Container */
+.footer {
+    background-color: #011B5B;
+    color: #ffffff;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+/* Content Wrapper */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Top Section Container */
+.mb-12 {
+    display: block; /* Use block to properly fill space */
+    margin-right: 2rem; /* Space between the top section and navigation */
+    margin-left: 2rem;
+}
+
+/* Tagline styles */
+.footer-tagline {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.5rem;
+    width: 250px; /* Allow tagline to fill full width */
+    display: block;
+    text-align: center; /* Center the tagline on mobile */
+}
+
+/* Social Icons Container */
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center the social icons */
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Social Icon Images */
+.social-icon-img {
+    width: 2rem;
+    height: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.social-icon-img:hover {
+    transform: translateY(-2px);
+}
+
+/* Navigation Section */
+.footer-nav {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically on mobile */
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* Footer Navigation Section */
+.footer-nav-section {
+    text-align: left; /* Ensure all content aligns to the left */
+    margin-bottom: 1rem; /* Add some margin between sections */
+    margin-right: 10vh;
+    padding: 0; /* Remove extra padding */
+}
+
+/* Section Titles */
+.footer-nav-title {
+    margin-bottom: 0.5rem; /* Reduce the bottom margin between title and links */
+    text-transform: uppercase;
+    color: #FB923C;
+    font-weight: 700;
+    text-align: left; /* Align the title to the left */
+    font-size: 16px;
+}
+
+/* Remove bullet points and align links to the start */
+.footer-nav-section ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.footer-nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    padding: 0.25rem 0;
+    display: inline-block; /* Align links to the left */
+}
+
+.footer-nav-link:hover {
+    color: #FB923C;
+}
+
+/* Bottom Section */
+.footer-bottom {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Stack items vertically */
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+/* Copyright Text */
+.copyright {
+    color: #9CA3AF;
+    font-size: 0.875rem;
+    margin-bottom: 1rem; /* Space between copyright and button */
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    background-color: #FB923C;
+    border: none;
+    border-radius: 9999px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #F97316;
+    transform: translateY(-2px);
+}
+
+.scroll-to-top:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(251, 146, 60, 0.5);
+}
+
+/* Responsive Design */
+
+/* Mobile View */
+@media (max-width: 767px) {
+    .footer-nav {
+        flex-direction: column; /* Stack the nav sections vertically */
+        align-items: center; /* Center the nav items */
+    }
+
+    .footer-nav-section {
+        text-align: center; /* Center the content inside each section */
+        margin-bottom: 1rem; /* Add spacing between sections */
+        margin-right: 0vh;
+    }
+
+    .footer-tagline {
+        width: 90%; /* Make tagline width responsive */
+        text-align: center; /* Center the tagline */
+        margin-bottom: 1.5rem;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .social-icon-img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .footer-bottom {
+        flex-direction: column; /* Stack copyright and scroll-to-top vertically */
+        text-align: center; /* Center the footer content */
+    }
+
+    .scroll-to-top {
+        margin-bottom: 1rem; /* Add some space between the button and copyright */
+    }
+
+    .copyright {
+        font-size: 0.875rem;
+    }
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer-nav {
+        flex-direction: row; /* Layout sections horizontally on tablets */
+    }
+
+    .footer-nav-section {
+        margin-bottom: 1rem; /* Add spacing between sections */
+    }
+
+    .footer-bottom {
+        flex-direction: row; /* Align footer items horizontally */
+        justify-content: space-between; /* Space out button and copyright */
+    }
+}
+
+/* Desktop View */
+/* Desktop View */
+@media (min-width: 1024px) {
+    .footer-nav {
+        flex-direction: row; /* Layout sections horizontally */
+        justify-content: space-between;
+    }
+
+    .footer-nav-section {
+        margin-bottom: 0; /* Remove bottom margin */
+        margin-right: 5vh;
+    }
+
+    .footer-bottom {
+        flex-direction: column; /* Stack button and copyright vertically */
+        justify-content: center; /* Center them horizontally */
+        align-items: center; /* Center them vertically */
+    }
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.footer-content {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .social-icon-img,
+    .scroll-to-top,
+    .footer-content {
+        animation: none;
+        transition: none;
+    }
+}
+
+/* Focus styles for keyboard navigation */
+.footer-nav-link:focus-visible {
+    outline: 2px solid #FB923C;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
