@@ -1,0 +1,101 @@
+/* Container styling */
+.faq-container {
+    width: 95%; /* Responsive for mobile screens */
+    max-width: 1200px; /* Full width for desktop screens */
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title styling */
+  .faq-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4b290b; /* Dark brown title color */
+    margin-bottom: 20px;
+  }
+  
+  /* FAQ list container */
+  .faq-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Individual FAQ items */
+  .faq-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    height: 70px; /* Adjusted height */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    overflow: hidden; /* Ensures content stays within the bounds */
+  }
+  
+  .faq-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Gradient bar at the left */
+  .faq-gradient-bar {
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(to bottom, #f2a40a, #e0712a);
+    border-radius: 5px 0 0 5px; /* Smooth rounded edge */
+  }
+  
+  /* Question text styling */
+  .faq-question {
+    flex: 1; /* Ensure proper spacing */
+    font-size: 16px;
+    color: #333;
+    padding: 0 15px;
+    text-align: left;
+  }
+  
+  /* Arrow styling */
+  .faq-arrow {
+    font-size: 18px;
+    color: #666;
+    margin-right: 15px;
+  }
+  
+  /* Show More button */
+  .faq-show-more {
+    background-color: #1C4670;/* Button blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px; /* Button padding */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .faq-show-more:hover {
+    background-color: #1a73e8; 
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .faq-item {
+      height: auto; /* Allow height to adjust for mobile screens */
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 15px;
+    }
+  
+    .faq-question {
+      margin-bottom: 10px;
+    }
+  
+    .faq-arrow {
+      align-self: flex-end;
+    }
+  }

@@ -77,7 +77,6 @@ const Blog = () => {
         {blogs.map((blog) => (
           <article key={blog.id} className="blog-card">
             <div className="blog-image">
-              {/* Placeholder for SVG image */}
               <img src={blog.imageUrl} alt={blog.title} />
               
             </div>
