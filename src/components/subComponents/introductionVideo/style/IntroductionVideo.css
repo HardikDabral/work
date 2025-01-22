@@ -1,0 +1,94 @@
+.introduction-video-container {
+  display: flex;
+  align-items: center;
+  padding:20px;
+  background-color: #1C4670;
+  color: white;
+}
+
+.introduction-video-content {
+  width: 50%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.introduction-video-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.introduction-video-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.introduction-video-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction-video-stats {
+  display: flex;
+  flex-direction: column;
+  text-align: left; /* Align text to the left */
+  margin-left: 10px; /* Optional: Add some spacing from the icon */
+}
+
+.introduction-video-option {
+  width: 100%;
+  text-align: left; /* Ensure alignment applies to the whole option */
+  display: flex;
+  align-items: flex-start; /* Align icon and text at the start */
+  gap: 10px; /* Optional: Add space between icon and text */
+}
+
+
+.introduction-video-option img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.introduction-video-image {
+  position: relative;
+  width: 50%;
+}
+
+.introduction-video-image img {
+  width: 100%;
+  height: auto;
+}
+
+.introduction-video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.introduction-video-play-button img {
+  width: 50px;
+  height: 50px;
+}
+
+.women {
+  border-radius: 10px;
+}
+
+.icon {
+  width: 10vh; 
+  height: 10vh;
+  object-fit: cover;
+}
+
+.imageDiv {
+  margin-top: 30px;
+}
+
+.para {
+  font-weight: 100;
+  margin-top: -20px;
+  max-width: 600px;
+}
