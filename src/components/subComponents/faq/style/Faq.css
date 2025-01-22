@@ -1,10 +1,11 @@
 /* Container styling */
 .faq-container {
-    width: 95%; /* Responsive for mobile screens */
+    width: 100%; /* Responsive for mobile screens */
     max-width: 1200px; /* Full width for desktop screens */
     margin: 0 auto;
     text-align: center;
     font-family: Arial, sans-serif;
+    margin-top: 20px;
   }
   
   /* Title styling */

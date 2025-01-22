@@ -40,7 +40,8 @@
   text-align: left;
   display: flex;
   align-items: flex-start;
-  gap: 10px;
+  gap: 15px; /* Increased gap between icon and text */
+  margin-bottom: 20px; /* Added bottom margin to prevent overlap */
 }
 
 .introduction-video-option img {
@@ -72,8 +73,13 @@
 
 .para {
   font-weight: 100;
-  margin-top: -20px;
+  margin-top: 10px;
   max-width: 600px;
+}
+
+/* Add margin-bottom to h3 to give space between h3 and p */
+.introduction-video-stats h3 {
+  margin-bottom: 10px; /* Added space between h3 and p */
 }
 
 /* Mobile adjustments */
