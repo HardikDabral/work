@@ -7,12 +7,14 @@ import Faq from "./subComponents/faq/Faq";
 import IntroductionVideo from "./subComponents/introductionVideo/IntroductionVideo";
 import AppSection from "./subComponents/appSection/AppSection";
 import TrustedBy from "./subComponents/trustedBy/TrustedBy";
+import ChooseUs from "./subComponents/chooseUs/ChooseUs";
 
 const Hero = () => {
     return (
         <div>
             <IntroductionVideo />
             <TrustedBy />
+            <ChooseUs />
             <Blog />
             <Faq />
             <AppSection />

@@ -1,0 +1,105 @@
+.choose-us-container {
+    padding: 60px 0px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Stack the header and cards vertically */
+    align-items: center; /* Center all content */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.choose-us-header {
+    text-align: left;
+    max-width: 800px; /* Limit the width of the header */
+    flex: 1;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    color: #f4811f;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.head {
+    font-size: 36px;
+    color: #333;
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+
+.description {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.features-flex {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-left: 150px;
+}
+
+.features-flex2 {
+    display: flex;
+    gap: 30px;
+    align-items: end;
+    margin-top: 4vh;
+    width: 100%;
+    margin-left: auto; /* Align to the right */
+    margin-left: 380px;
+}
+
+
+.feature-card {
+    background: #fff;
+    width: 288.11px;
+    height: 215px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-placeholder {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+
+.feature-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+   
+    .feature-card {
+        width: 100%;
+    }
+
+
+}

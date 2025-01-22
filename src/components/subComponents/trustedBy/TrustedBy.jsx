@@ -10,7 +10,7 @@ const TrustedBy = () => {
     return (
         <div className="companies-container">
             <div className='title'>
-                <h1 >Trusted By Over 100+ Startups and freelance business</h1>
+                <p >Trusted By Over 100+ Startups and freelance business</p>
             </div>
             <div className="company-logos">
                 <div className="logo-item">
