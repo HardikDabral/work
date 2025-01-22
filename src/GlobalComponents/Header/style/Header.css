@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.header_main_container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.header_top_section {
+    height: 44px;
+    width: 100%;
+    background: rgba(28, 70, 112, 1);
+}
+.top_container {
+    padding: 0 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container_items {
+    padding: 0 30px;
+    display: flex;
+    gap: 10px;
+}
+.container_items:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container_items a {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.14px;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+}
+.border {
+    width: 2px;
+    height: 100%;
+    border-radius: 50px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #d0d0d0 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header_bottom_section {
+    height: 71px;
+    width: 90%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 0 50px; */
+    align-items: center;
+    background: white;
+    justify-content: space-between;
+}
+
+.header_bottom_section .logo_container .logo {
+    height: 50px;
+    width: 200px;
+}
+
+.menu_container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menu_container ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.menu_container ul a {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(39, 45, 55, 1);
+}
+.btn {
+    width: 157px;
+    height: 46px;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    background: rgba(255, 162, 41, 1);
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: 'Poppins', sans-serif;
+}
