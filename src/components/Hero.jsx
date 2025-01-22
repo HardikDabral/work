@@ -11,12 +11,16 @@ import ChooseUs from "./subComponents/chooseUs/ChooseUs";
 import HappyClients from "./subComponents/happyClients/HappyClients";
 import LandingPage from "./subComponents/landingPage/landingPage"
 import TestimonialCarousel from "./subComponents/TestimonialCarousel/TestimonialCarousel";
+import RegisterKaro from './subComponents/RegisterKaro/RegisterKaro'
+import ServicesSection from "./subComponents/serviceSection/ServiceSection";
 
 const Hero = () => {
     return (
         <div>
             <LandingPage />
             <TrustedBy />
+            <ServicesSection />
+            <RegisterKaro />
             <ChooseUs />
             <IntroductionVideo />
             <HappyClients />

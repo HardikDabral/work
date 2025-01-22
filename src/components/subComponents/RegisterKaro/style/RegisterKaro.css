@@ -1,0 +1,94 @@
+.register-container {
+    display: flex;
+    padding: 40px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  
+  .content-section {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .welcome-text {
+    color: #F4A460;
+    font-size: 14px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    text-align: left; /* Align welcome text to the left */
+  }
+  
+  .about-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: left; /* Align heading to the left */
+  }
+  
+  .highlight {
+    color: #F4A460;
+    font-weight: normal;
+  }
+  
+  .description, .recommendation {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: left; /* Align paragraphs to the left */
+  }
+  
+  .learn-more {
+    background-color: #2B4570;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more:hover {
+    background-color: #1a2f4c;
+  }
+  
+  .arrow {
+    font-size: 20px;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .register-container {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .content-section {
+      padding-right: 0;
+    }
+  
+    .about-section h1 {
+      font-size: 28px;
+    }
+  }
+  
