@@ -1,0 +1,100 @@
+/* Container styling */
+.app-section {
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C4670; /* Blue background */
+    padding: 50px 20px;
+    color: #ffffff;
+    margin-top: 4vh;
+    margin-bottom: -50px;
+}
+
+
+
+.app-content h3 {
+    text-align: left;
+    font-weight: 500;
+}
+/* Left content section */
+.app-content {
+    flex: 1;
+    max-width: 50%; /* Half-width on desktop */
+    padding-right: 20px;
+    margin-left: 50px;
+}
+
+.app-content h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.app-content p {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-weight: 100;
+    width: 100%; /* Allow it to adapt to available space */
+    text-align: left;
+}
+
+/* App store buttons */
+.app-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.app-buttons a img {
+    width: 150px; /* Button width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Right image section */
+.app-image {
+    flex: 1;
+    max-width: 100%; /* Ensure it's fully responsive */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    overflow: hidden; /* Ensures no overflow */
+    margin-top: 50px;
+    position: relative;
+}
+
+.app-image img {
+    width: 100%; /* Full width of parent container */
+    max-width: 900px; /* Optional: Set a maximum size */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image is fully visible */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .app-section {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
+        padding: 30px 10px;
+    }
+
+    .app-content {
+        max-width: 100%; /* Full width for mobile */
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .app-image {
+        max-width: 100%; /* Allow it to take full width */
+        margin-top: 20px;
+    }
+
+    .app-image img {
+        width: 100%; /* Use full width of the container */
+        max-width: 500px; /* Remove any fixed max-width */
+        height: auto; /* Ensure the height maintains aspect ratio */
+        margin-bottom: 20px;
+    }
+}

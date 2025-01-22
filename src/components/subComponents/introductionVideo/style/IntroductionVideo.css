@@ -1,0 +1,104 @@
+.introduction-video-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #1C4670;
+  color: white;
+}
+
+.introduction-video-content {
+  width: 50%; /* Default for larger screens */
+  text-align: left;
+  margin-left: 20px;
+}
+
+.introduction-video-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.introduction-video-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.introduction-video-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction-video-stats {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.introduction-video-option {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.introduction-video-option img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.introduction-video-image {
+  position: relative;
+  width: 50%; /* Default for larger screens */
+}
+
+.introduction-video-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.icon {
+  width: 10vh; 
+  height: 10vh;
+  object-fit: cover;
+}
+
+.imageDiv {
+  margin-top: 30px;
+}
+
+.para {
+  font-weight: 100;
+  margin-top: -20px;
+  max-width: 600px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .introduction-video-container {
+    flex-direction: column; /* Stack content and image vertically */
+    gap: 20px; /* Add spacing between sections */
+  }
+
+  .introduction-video-content, 
+  .introduction-video-image {
+    width: 100%; /* Full width for mobile */
+    margin: 0; /* Remove extra margins */
+  }
+
+  .introduction-video-content h2 {
+    font-size: 24px; /* Adjust heading size for smaller screens */
+  }
+
+  .introduction-video-content p {
+    font-size: 16px; /* Adjust paragraph size */
+  }
+
+  .icon {
+    width: 8vh;
+    height: 8vh;
+  }
+}

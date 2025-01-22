@@ -1,0 +1,207 @@
+.choose-us-container {
+    padding: 60px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Stack the header and cards vertically */
+    align-items: center;
+    width: 100%;
+}
+
+.choose-us-header {
+    text-align: center; /* Center align the text */
+    max-width: 90%; /* Make it flexible for smaller screens */
+    margin: 0 auto 40px; /* Center and add spacing */
+    padding: 0 10px; /* Add padding for better spacing */
+}
+.subtitle {
+    color: #f4811f;
+    font-size: 18px; /* Increase font size */
+    font-weight: 400; /* Make it bolder */
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px; /* Add spacing between letters */
+    text-align: left;
+}
+
+.head {
+    font-size: 32px; /* Increase font size for prominence */
+    color: #333;
+    margin: 0 0 25px 0; /* Add more space below */
+    font-weight: 800; /* Make the text bold */
+    line-height: 1.3; /* Adjust line height for better readability */
+    text-align: left;
+    white-space: nowrap;
+}
+
+.description {
+    color: #666;
+    font-size: 16px; /* Increase font size */
+    line-height: 1.8; /* Increase line spacing */
+    max-width: 1000px; /* Allow more room for text */
+    margin: 0 auto; /* Center the description */
+}
+
+
+.features-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    order: 2; /* Default order for desktop */
+    margin-left: 100px;
+}
+
+.features-flex2 {
+    align-items: end;
+    margin-top: 4vh;
+    margin-left: 0; /* Reset margin-left */
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-left: 150px;
+    width: 100%;
+    justify-content: center;
+}
+
+.feature-card {
+    background: #fff;
+    width: 288.11px;
+    height: 215px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-placeholder {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    margin-top: 40px;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+
+.feature-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.feature-card:nth-child(1) {
+    background-color: #FCDDEC;
+}
+
+.feature-card:nth-child(2) {
+    background-color: #F1FBF3;
+}
+
+.feature-card:nth-child(3) {
+    background-color: #EDF3FF;
+}
+
+.feature-card:nth-child(4) {
+    background-color: #FCDDEC;
+}
+
+.feature-card:nth-child(5) {
+    background-color: #F1FBF3;
+}
+
+.feature-card:nth-child(6) {
+    background-color: #EDF3FF;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .choose-us-container {
+        padding: 40px 20px;
+    }
+
+    .choose-us-header {
+        text-align: center; /* Center header on smaller screens */
+        margin-bottom: 30px;
+    }
+
+    .features-flex,
+    .features-flex2 {
+        padding-left: 0;
+    }
+
+    .feature-card {
+        width: 45%; /* Adjust card size */
+        margin-bottom: 30px;
+    }
+
+    .feature-card h3 {
+        font-size: 18px; /* Adjust text size */
+    }
+
+    .feature-card p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .choose-us-container {
+        align-items:center; /* Align items to the start for mobile */
+    }
+
+    .choose-us-header {
+        order: 1; /* Header stays at the top */
+        margin-bottom: 30px;
+        margin-left: 20%;
+    }
+
+    .head {
+        font-size: 20px; /* Increase font size for prominence */
+        color: #333;
+        margin: 0 0 25px 0; /* Add more space below */
+        font-weight: 800; /* Make the text bold */
+        line-height: 1.3; /* Adjust line height for better readability */
+        white-space: nowrap;
+    }
+    
+
+    .description {
+        color: #666;
+        font-size: 12px; /* Increase font size */
+        line-height: 1.8; /* Increase line spacing */
+        max-width: 100%; /* Allow more room for text */
+        margin: 0 auto; /* Center the description */
+       
+    }
+
+    .features-flex .feature-card:nth-child(1), /* First card */
+    .features-flex .feature-card:nth-child(2)  /* Second card */ {
+        display: none; /* Hide the first two cards */
+    }
+
+
+    .feature-card {
+        width: 80%; /* Full-width cards for mobile */
+        margin-bottom: 20px;
+    }
+
+    .feature-card h3 {
+        font-size: 16px; /* Adjust text size */
+    }
+
+    .feature-card p {
+        font-size: 12px;
+    }
+}
