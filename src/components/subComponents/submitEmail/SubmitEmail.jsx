@@ -14,9 +14,9 @@ const SubmitEmail = () => {
     <div className="container">
       <div className="industry-text">1% OF THE INDUSTRY</div>
       
-      <h1 className="title">
+      <p className='title-here'>
         Welcome to your new digital reality. Now.
-      </h1>
+      </p>
       
       <form onSubmit={handleSubmit} className="email-form">
         <div className="input-group">

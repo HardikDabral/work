@@ -1,0 +1,144 @@
+.testimonials-section {
+    background-color: #1C4670;
+    padding: 40px;
+    color: white;
+  }
+  
+  .testimonials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .testimonials-header h2 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFA229;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the arrow icon inside the button */
+  }
+  
+  .author-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fits well inside the circle */
+  }
+  
+
+  .testimonials-slider {
+    overflow: hidden;
+    margin: -20px;  /* To counteract card padding */
+    padding: 20px;  /* To show card shadows */
+  }
+  
+  .testimonials-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .testimonial-card {
+    flex: 0 0 calc(33.33% - 40px);  /* Show 3 cards at once */
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 20px;
+    color: #333;
+    position: relative;
+  }
+  
+  .quote-marks {
+    font-size: 60px;
+    font-family: serif;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background: linear-gradient(135deg, #FFA229, #1C4670);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+  }
+  
+  .testimonial-text {
+    margin: 30px 0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .testimonial-footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .author-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+  }
+  
+  .author-details h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .author-details p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .rating {
+    margin-top: 15px;
+  }
+  
+  .star {
+    color: #FFA229;
+    font-size: 18px;
+    margin-right: 2px;
+  }
+  
+  .star.half-filled {
+    color: #e0e0e0;
+  }
+  
+  .slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0; /* Remove the gap */
+    margin-top: 30px;
+  }
+  
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    padding: 0;
+    margin: 0 2px; /* Add small margin instead of gap for more control */
+  }
+  
+  .dot.active {
+    background-color: white;
+  }

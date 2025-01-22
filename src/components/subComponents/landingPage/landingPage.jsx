@@ -15,15 +15,18 @@ function landingPage() {
             <div className='landingPage_container_left_side'>
                 <div> <img src={Star} alt="clobates" /></div>
                 <div className='contant'>
+                    <div className='contant2'>
                     <h1>Your trusted partner</h1>
                     <h1>for compliance business needs</h1>
+                    </div>
+                    
                     <p>An online business compliance platform that helps entrepreneurs and other individuals with various, <span>registrations, tax filings</span>, and other <span>legal matters</span>.</p>
                 </div>
 
 
                 <div> <img src={clobates} alt="clobates" /></div>
                 <div className='btn_container'>
-                    <button className='btn'>Talk An Expert</button>
+                    <button className='btnhere'>Talk An Expert</button>
                     <button className='btn_1'><img src={btn_img} alt="btn_img" /></button>
                 </div>
             </div>

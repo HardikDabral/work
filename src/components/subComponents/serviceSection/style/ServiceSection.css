@@ -1,0 +1,156 @@
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .services-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .welcome-text {
+    color: #ff9043;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .services-title {
+    font-size: 32px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  .service-item {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .icon-placeholder {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4; /* Optional background color */
+    border-radius: 50%;
+  }
+  
+  .service-icon {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensures the icon fits inside the circle */
+  }
+  
+  .service-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 15px 0;
+  }
+  
+  .service-item p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .vertical-divider {
+    position: absolute;
+    right: -15px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #e0e0e0;
+  }
+  
+  .learn-more-btn {
+    background: none;
+    border: none;
+    color: #001038;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .random-rectangle {
+    position: absolute;
+    right: -17px; /* Align it with the right edge of the service item */
+    top: 150px; /* Position it directly above the vertical divider */
+    width: 5px; /* Width of the rectangle */
+    height: 20px; /* Height of the rectangle */
+    background-color: #BB162B; /* Rectangle color */
+    z-index: 3; /* Ensure it's on top of the vertical divider */
+  }
+  
+
+  .learn-more-icon {
+    width: 16px; /* Adjust the size of the icon */
+    height: 16px;
+    margin-right: 8px; /* Add space between the icon and text */
+  }
+  
+  .learn-more-btn:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .learn-more-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .services-footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .see-all-btn {
+    background: #2f55d4;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .see-all-btn:hover {
+    background: #243ead;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .services-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .vertical-divider {
+      display: none;
+    }
+  
+    .service-item {
+      padding: 15px 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+  
+    .service-item:last-child {
+      border-bottom: none;
+    }
+  }
+  

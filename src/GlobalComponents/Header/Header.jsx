@@ -36,26 +36,25 @@ const Header = () => {
                 </div>
             </div>
             <div className='header_bottom_section'>
-                <div className="logo_container">
-                    <a href="#"
-                    ><img src={Logo} alt="logo" className="logo" /></a>
-                </div>
-                <div className="menu_container">
-                    <ul>
+    <div className="logo_container">
+        <a href="#"><img src={Logo} alt="logo" className="logo" /></a>
+    </div>
+    <div className="menu_container">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a className="hidden-mobile" href="#">Our Services <img src={DownArrow} alt="" /></a></li>
+            {/* Remove Blog, Contact Us, and About Us on mobile */}
+            <li ><a href="#">Blog</a></li>
+            <li className="hidden-mobile"><a href="#">Contact Us</a></li>
+            <li className="hidden-mobile"><a href="#">About us</a></li>
+        </ul>
+        <div>
+            <a href="#"><img src={Search} alt="Search" /></a>
+        </div>
+        <button className="btn">Talk An Expert</button>
+    </div>
+</div>
 
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Our Services <img src={DownArrow} alt="" /></a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">About us</a></li>
-                    </ul>
-                    <div>
-                        <a href="#"><img src={Search} alt="Search" /></a>
-                    </div>
-                    <button className="btn">Talk An Expert</button>
-                </div>
-
-            </div>
         </div>
     )
 }
