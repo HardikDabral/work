@@ -57,7 +57,7 @@
 .features-flex2 {
     align-items: end;
     margin-top: 4vh;
-    margin-left: 0; /* Reset margin-left */
+    margin-left: 70px; /* Reset margin-left */
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
@@ -80,11 +80,12 @@
     transform: translateY(-5px);
 }
 
-.icon-placeholder {
-    width: 60px;
-    height: 60px;
-    margin: 0 auto 20px;
-    margin-top: 40px;
+.icon-here {
+    margin-top: 20px;
+}
+
+.space{
+    margin-top: 20px;
 }
 
 .feature-card h3 {

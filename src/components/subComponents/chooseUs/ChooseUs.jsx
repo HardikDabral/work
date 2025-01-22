@@ -20,46 +20,60 @@ const ChooseUs = () => {
                 <div className="features-flex">
                     {/* First row with 2 cards */}
                     <div className="feature-card">
-                        <div className="icon-placeholder">
-                            <img src={one}/>
+                        <div className="icon-here">
+                            <img src={one} />
                         </div>
+                        <div className='space'>
                         <h3>Confidential & Safe</h3>
                         <p>All your private information is safe with us</p>
+                        </div>
+                        
                     </div>
 
                     <div className="feature-card">
-                        <div className="icon-placeholder">
-                        <img src={two}/>
+                        <div className="icon-here">
+                            <img src={two} />
                         </div>
+                        <div className='space'>
                         <h3>No Hidden Fee</h3>
                         <p>Everything is put before you with no hidden charges or conditions</p>
+                            </div>
+                        
                     </div>
                 </div>
             </div>
             <div>
-            <div className="features-flex2">
+                <div className="features-flex2">
                     {/* First row with 2 cards */}
                     <div className="feature-card">
-                        <div className="icon-placeholder">
-                        <img src={three}/>
+                        <div className="icon-here">
+                            <img src={three} />
                         </div>
+                        <div className='space'>
                         <h3>Confidential & Safe</h3>
                         <p>All your private information is safe with us</p>
+                        </div>
+                        
                     </div>
 
                     <div className="feature-card">
-                        <div className="icon-placeholder">
-                        <img src={four}/>
+                        <div className="icon-here">
+                            <img src={four} />
                         </div>
+                        <div className='space'>
                         <h3>No Hidden Fee</h3>
                         <p>Everything is put before you with no hidden charges or conditions</p>
+                        </div>
+                       
                     </div>
                     <div className="feature-card">
-                        <div className="icon-placeholder">
-                        <img src={one}/>
+                        <div className="icon-here">
+                            <img src={one} />
                         </div>
+                        <div className='space'>
                         <h3>No Hidden Fee</h3>
                         <p>Everything is put before you with no hidden charges or conditions</p>
+                        </div>
                     </div>
                 </div>
             </div>
