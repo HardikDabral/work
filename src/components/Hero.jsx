@@ -12,9 +12,9 @@ import ChooseUs from "./subComponents/chooseUs/ChooseUs";
 const Hero = () => {
     return (
         <div>
-            <IntroductionVideo />
             <TrustedBy />
             <ChooseUs />
+            <IntroductionVideo />
             <Blog />
             <Faq />
             <AppSection />

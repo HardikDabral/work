@@ -54,6 +54,16 @@
         width: 100px;
         height: 35px;
     }
+
+    .title {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.4;
+        text-align: center;
+        color: #333; /* Ensure contrast with the background */
+        margin-bottom: 20px; /* Add space below the title */
+    }
 }
 
 @media (max-width: 480px) {
@@ -65,4 +75,6 @@
         width: 90px;
         height: 30px;
     }
+
+
 }

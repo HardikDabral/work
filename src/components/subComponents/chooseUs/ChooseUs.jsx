@@ -1,5 +1,9 @@
 import React from 'react';
 import './style/ChooseUs.css';
+import one from './style/images/one.svg'
+import two from './style/images/two.svg'
+import three from './style/images/three.svg'
+import four from './style/images/four.svg'
 
 const ChooseUs = () => {
     return (
@@ -16,13 +20,17 @@ const ChooseUs = () => {
                 <div className="features-flex">
                     {/* First row with 2 cards */}
                     <div className="feature-card">
-                        <div className="icon-placeholder"></div>
+                        <div className="icon-placeholder">
+                            <img src={one}/>
+                        </div>
                         <h3>Confidential & Safe</h3>
                         <p>All your private information is safe with us</p>
                     </div>
 
                     <div className="feature-card">
-                        <div className="icon-placeholder"></div>
+                        <div className="icon-placeholder">
+                        <img src={two}/>
+                        </div>
                         <h3>No Hidden Fee</h3>
                         <p>Everything is put before you with no hidden charges or conditions</p>
                     </div>
@@ -32,18 +40,24 @@ const ChooseUs = () => {
             <div className="features-flex2">
                     {/* First row with 2 cards */}
                     <div className="feature-card">
-                        <div className="icon-placeholder"></div>
+                        <div className="icon-placeholder">
+                        <img src={three}/>
+                        </div>
                         <h3>Confidential & Safe</h3>
                         <p>All your private information is safe with us</p>
                     </div>
 
                     <div className="feature-card">
-                        <div className="icon-placeholder"></div>
+                        <div className="icon-placeholder">
+                        <img src={four}/>
+                        </div>
                         <h3>No Hidden Fee</h3>
                         <p>Everything is put before you with no hidden charges or conditions</p>
                     </div>
                     <div className="feature-card">
-                        <div className="icon-placeholder"></div>
+                        <div className="icon-placeholder">
+                        <img src={one}/>
+                        </div>
                         <h3>No Hidden Fee</h3>
                         <p>Everything is put before you with no hidden charges or conditions</p>
                     </div>
