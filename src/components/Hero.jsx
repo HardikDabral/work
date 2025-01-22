@@ -8,6 +8,7 @@ import IntroductionVideo from "./subComponents/introductionVideo/IntroductionVid
 import AppSection from "./subComponents/appSection/AppSection";
 import TrustedBy from "./subComponents/trustedBy/TrustedBy";
 import ChooseUs from "./subComponents/chooseUs/ChooseUs";
+import HappyClients from "./subComponents/happyClients/HappyClients";
 
 const Hero = () => {
     return (
@@ -15,6 +16,7 @@ const Hero = () => {
             <TrustedBy />
             <ChooseUs />
             <IntroductionVideo />
+            <HappyClients />
             <Blog />
             <Faq />
             <AppSection />
