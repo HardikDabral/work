@@ -5,17 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  max-width: 1440px; /* Set max width to laptop size */
+  margin-left: auto; /* Center content horizontally */
+  margin-right: auto; /* Center content horizontally */
 }

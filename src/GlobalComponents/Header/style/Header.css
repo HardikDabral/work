@@ -10,6 +10,9 @@
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    font-family: 'Poppins', sans-serif;
+}
 .header_top_section {
     height: 44px;
     width: 100%;
